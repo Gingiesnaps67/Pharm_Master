@@ -1,0 +1,391 @@
+{
+ "axe": {
+  "heading-order": {
+   "impact": "moderate",
+   "help": "Heading levels should only increase by one",
+   "screens": {
+    "home/light": 1,
+    "home/dark": 1,
+    "module/light": 1,
+    "module/dark": 1,
+    "hold/light": 1,
+    "hold/dark": 1,
+    "rescue/light": 1,
+    "rescue/dark": 1,
+    "rescue-case/light": 1,
+    "rescue-case/dark": 1,
+    "mm-home/light": 1,
+    "mm-home/dark": 1,
+    "mm-learn/light": 1,
+    "mm-learn/dark": 1,
+    "mm-games/light": 1,
+    "mm-games/dark": 1
+   },
+   "ex": [
+    ".card.stack:nth-child(3) > .between.row > .head > h3 :: Fix any of the following:   Heading order invalid"
+   ]
+  },
+  "html-has-lang": {
+   "impact": "serious",
+   "help": "<html> element must have a lang attribute",
+   "screens": {
+    "home/light": 1,
+    "home/dark": 1,
+    "session/light": 1,
+    "session/dark": 1,
+    "library/light": 1,
+    "library/dark": 1,
+    "drug/light": 1,
+    "drug/dark": 1,
+    "systems/light": 1,
+    "systems/dark": 1,
+    "module/light": 1,
+    "module/dark": 1,
+    "games/light": 1,
+    "games/dark": 1,
+    "hold/light": 1,
+    "hold/dark": 1,
+    "rescue/light": 1,
+    "rescue/dark": 1,
+    "rescue-case/light": 1,
+    "rescue-case/dark": 1,
+    "exam/light": 1,
+    "exam/dark": 1,
+    "missed/light": 1,
+    "missed/dark": 1,
+    "compare/light": 1,
+    "compare/dark": 1,
+    "progress/light": 1,
+    "progress/dark": 1,
+    "mm-home/light": 1,
+    "mm-home/dark": 1,
+    "mm-learn/light": 1,
+    "mm-learn/dark": 1,
+    "mm-lesson7/light": 1,
+    "mm-lesson7/dark": 1,
+    "mm-practice/light": 1,
+    "mm-practice/dark": 1,
+    "mm-games/light": 1,
+    "mm-games/dark": 1,
+    "mm-exam/light": 1,
+    "mm-exam/dark": 1,
+    "mm-cheat/light": 1,
+    "mm-cheat/dark": 1
+   },
+   "ex": [
+    "html :: Fix any of the following:   The <html> element does not have a lang attribute"
+   ]
+  },
+  "color-contrast": {
+   "impact": "serious",
+   "help": "Elements must meet minimum color contrast ratio thresholds",
+   "screens": {
+    "library/light": 61,
+    "drug/light": 1,
+    "module/light": 4,
+    "progress/light": 1,
+    "mm-lesson7/light": 1
+   },
+   "ex": [
+    "button[data-drug=\"digoxin\"] > .rx-foot > .badge-S.chip[title=\"Confirmed in your course files\"] :: Fix any of the following:   Element has insufficient color contrast of 4.35 (foreground color: #1d7d47, background color: #dcf1e4, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1",
+    "button[data-drug=\"lisinopril\"] > .rx-foot > .badge-S.chip[title=\"Confirmed in your course files\"] :: Fix any of the following:   Element has insufficient color contrast of 4.35 (foreground color: #1d7d47, background color: #dcf1e4, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+   ]
+  },
+  "empty-table-header": {
+   "impact": "minor",
+   "help": "Table header text should not be empty",
+   "screens": {
+    "module/light": 1,
+    "module/dark": 1,
+    "compare/light": 1,
+    "compare/dark": 1
+   },
+   "ex": [
+    "thead > tr > th:nth-child(1) :: Fix any of the following:   Element does not have text that is visible to screen readers"
+   ]
+  },
+  "page-has-heading-one": {
+   "impact": "moderate",
+   "help": "Page should contain a level-one heading",
+   "screens": {
+    "rescue-case/light": 1,
+    "rescue-case/dark": 1
+   },
+   "ex": [
+    "html :: Fix all of the following:   Page must have a level-one heading"
+   ]
+  }
+ },
+ "dead": [
+  {
+   "screen": "home",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "home",
+   "btn": "Dashboard"
+  },
+  {
+   "screen": "session",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "session",
+   "btn": "Study session"
+  },
+  {
+   "screen": "library",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "library",
+   "btn": "Medication library"
+  },
+  {
+   "screen": "drug",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "drug",
+   "btn": "Medication library"
+  },
+  {
+   "screen": "systems",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "systems",
+   "btn": "Learn by system"
+  },
+  {
+   "screen": "module",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "module",
+   "btn": "Learn by system"
+  },
+  {
+   "screen": "games",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "games",
+   "btn": "Matching games"
+  },
+  {
+   "screen": "hold",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "hold",
+   "btn": "Hold, give, or clarify?"
+  },
+  {
+   "screen": "rescue",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "rescue",
+   "btn": "Antidote rescue"
+  },
+  {
+   "screen": "rescue-case",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "rescue-case",
+   "btn": "Antidote rescue"
+  },
+  {
+   "screen": "exam",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "exam",
+   "btn": "Exam simulator"
+  },
+  {
+   "screen": "exam",
+   "btn": "25"
+  },
+  {
+   "screen": "exam",
+   "btn": "Exam mode"
+  },
+  {
+   "screen": "missed",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "missed",
+   "btn": "Missed & weak spots"
+  },
+  {
+   "screen": "compare",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "compare",
+   "btn": "Compare meds"
+  },
+  {
+   "screen": "progress",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "progress",
+   "btn": "Progress & data"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "MED MATH LAB"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "MED MATH home"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Beginner"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Dimensional"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Allowed"
+  },
+  {
+   "screen": "mm-learn",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-learn",
+   "btn": "MED MATH LAB"
+  },
+  {
+   "screen": "mm-learn",
+   "btn": "Learn formulas"
+  },
+  {
+   "screen": "mm-lesson7",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-lesson7",
+   "btn": "MED MATH LAB"
+  },
+  {
+   "screen": "mm-practice",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-practice",
+   "btn": "MED MATH LAB"
+  },
+  {
+   "screen": "mm-games",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-games",
+   "btn": "MED MATH LAB"
+  },
+  {
+   "screen": "mm-games",
+   "btn": "Math games"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "MED MATH LAB"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "MED math exam"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "20"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "Exam mode"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "Mixed"
+  },
+  {
+   "screen": "mm-cheat",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-cheat",
+   "btn": "MED MATH LAB"
+  },
+  {
+   "screen": "mm-cheat",
+   "btn": "Formula cheat sheet"
+  },
+  {
+   "screen": "mm-cheat",
+   "btn": "Reveal all"
+  }
+ ],
+ "buttons": 505,
+ "screens": {
+  "home": 20,
+  "session": 17,
+  "library": 46,
+  "drug": 20,
+  "systems": 29,
+  "module": 22,
+  "games": 31,
+  "hold": 27,
+  "rescue": 23,
+  "rescue-case": 19,
+  "exam": 21,
+  "missed": 13,
+  "compare": 13,
+  "progress": 17,
+  "mm-home": 38,
+  "mm-learn": 29,
+  "mm-lesson7": 23,
+  "mm-practice": 20,
+  "mm-games": 24,
+  "mm-exam": 30,
+  "mm-cheat": 23
+ },
+ "mobile_nav": {
+  "items": 12,
+  "visible": 2,
+  "headerH": 111.328125
+ },
+ "tablet_overflow": false,
+ "perf": {
+  "domContentLoaded": 121,
+  "load": 122,
+  "genQ": 365,
+  "allQ": 469,
+  "routeMs": 19
+ },
+ "focus_after_route": "BODY#",
+ "sprint_best_after_ineligible": -999,
+ "rx_button_children": 19,
+ "back_from_deepdive": {
+  "hash_in_deepdive": "#library",
+  "after_back": "#home",
+  "still_deepdive": false
+ },
+ "exam_resume": false
+}

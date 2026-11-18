@@ -1,0 +1,581 @@
+{
+ "axe": {
+  "color-contrast": {
+   "impact": "serious",
+   "help": "Elements must meet minimum color contrast ratio thresholds",
+   "screens": {
+    "drug/light": 8,
+    "drug-understand/light": 1,
+    "drug-master/light": 1,
+    "rescue-case/light": 1,
+    "progress/light": 1,
+    "mm-learn/light": 1,
+    "mm-practice/light": 1,
+    "mm-exam/light": 1,
+    "ins-check/light": 1,
+    "ins-quiz/light": 1
+   },
+   "ex": [
+    "a[data-k=\"home\"] > span :: Fix any of the following:   Element has insufficient color contrast of 1.17 (foreground color: #e8edf6, background color: #ffffff, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1",
+    "a[data-k=\"learn\"] > span :: Fix any of the following:   Element has insufficient color contrast of 1.61 (foreground color: #2fd4c4, background color: #ddf4f1, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+   ]
+  },
+  "heading-order": {
+   "impact": "moderate",
+   "help": "Heading levels should only increase by one",
+   "screens": {
+    "hold/light": 1,
+    "hold/dark": 1,
+    "rescue/light": 1,
+    "rescue/dark": 1,
+    "rescue-case/light": 1,
+    "rescue-case/dark": 1,
+    "mm-home/light": 1,
+    "mm-home/dark": 1,
+    "mm-learn/light": 1,
+    "mm-learn/dark": 1,
+    "mm-games/light": 1,
+    "mm-games/dark": 1
+   },
+   "ex": [
+    "button[data-h=\"hold:h1\"] > h4 :: Fix any of the following:   Heading order invalid"
+   ]
+  },
+  "page-has-heading-one": {
+   "impact": "moderate",
+   "help": "Page should contain a level-one heading",
+   "screens": {
+    "rescue-case/light": 1,
+    "rescue-case/dark": 1
+   },
+   "ex": [
+    "html :: Fix all of the following:   Page must have a level-one heading"
+   ]
+  }
+ },
+ "dead": [
+  {
+   "screen": "home",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "home",
+   "btn": "PHARM MASTER\nThe Nursing Medication Lab"
+  },
+  {
+   "screen": "home",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "home",
+   "btn": "Home"
+  },
+  {
+   "screen": "session",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "session",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "session",
+   "btn": "Study session"
+  },
+  {
+   "screen": "library",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "library",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "library",
+   "btn": "Learn"
+  },
+  {
+   "screen": "library",
+   "btn": "Medications"
+  },
+  {
+   "screen": "library",
+   "btn": "List"
+  },
+  {
+   "screen": "drug",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "drug",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "drug",
+   "btn": "1\nQuick Glance"
+  },
+  {
+   "screen": "drug-understand",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "drug-understand",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "drug-understand",
+   "btn": "2\nUnderstand It"
+  },
+  {
+   "screen": "drug-master",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "drug-master",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "drug-master",
+   "btn": "5\nMaster It"
+  },
+  {
+   "screen": "systems",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "systems",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "systems",
+   "btn": "Body systems"
+  },
+  {
+   "screen": "module",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "module",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "games",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "games",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "games",
+   "btn": "Matching"
+  },
+  {
+   "screen": "hold",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "hold",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "hold",
+   "btn": "Give \u00b7 hold \u00b7 clarify"
+  },
+  {
+   "screen": "rescue",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "rescue",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "rescue",
+   "btn": "Antidote rescue"
+  },
+  {
+   "screen": "rescue-case",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "rescue-case",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "rescue-case",
+   "btn": "Antidote rescue"
+  },
+  {
+   "screen": "exam",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "exam",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "exam",
+   "btn": "Exams"
+  },
+  {
+   "screen": "exam",
+   "btn": "Practice exam"
+  },
+  {
+   "screen": "exam",
+   "btn": "25"
+  },
+  {
+   "screen": "exam",
+   "btn": "Exam mode"
+  },
+  {
+   "screen": "missed",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "missed",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "missed",
+   "btn": "Missed & weak"
+  },
+  {
+   "screen": "compare",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "compare",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "compare",
+   "btn": "Compare"
+  },
+  {
+   "screen": "progress",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "progress",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "progress",
+   "btn": "Progress"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "MED Math"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Beginner"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Dimensional"
+  },
+  {
+   "screen": "mm-home",
+   "btn": "Allowed"
+  },
+  {
+   "screen": "mm-learn",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-learn",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-learn",
+   "btn": "MED Math"
+  },
+  {
+   "screen": "mm-lesson7",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-lesson7",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-lesson7",
+   "btn": "MED Math"
+  },
+  {
+   "screen": "mm-practice",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-practice",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-practice",
+   "btn": "MED Math"
+  },
+  {
+   "screen": "mm-games",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-games",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-games",
+   "btn": "MED Math"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "MED Math"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "20"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "Exam mode"
+  },
+  {
+   "screen": "mm-exam",
+   "btn": "Mixed"
+  },
+  {
+   "screen": "mm-cheat",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-cheat",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-cheat",
+   "btn": "MED Math"
+  },
+  {
+   "screen": "mm-cheat",
+   "btn": "Reveal all"
+  },
+  {
+   "screen": "mm-bench",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-bench",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "mm-build",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "mm-build",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "ins-home",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "ins-home",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "ins-home",
+   "btn": "Insulin Lab"
+  },
+  {
+   "screen": "ins-timeline",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "ins-timeline",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "ins-timeline",
+   "btn": "CDC"
+  },
+  {
+   "screen": "ins-timeline",
+   "btn": "American Diabetes Association"
+  },
+  {
+   "screen": "ins-cases",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "ins-cases",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "ins-cases",
+   "btn": "DailyMed"
+  },
+  {
+   "screen": "ins-cases",
+   "btn": "FDA label"
+  },
+  {
+   "screen": "ins-cases",
+   "btn": "ADA Standards of Care 2026"
+  },
+  {
+   "screen": "ins-mix",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "ins-mix",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "ins-check",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "ins-check",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "ins-check",
+   "btn": "Printable checkoff record"
+  },
+  {
+   "screen": "ins-syringe",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "ins-syringe",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "ins-quiz",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "ins-quiz",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "ins-play",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "ins-play",
+   "btn": "Toggle light or dark mode"
+  }
+ ],
+ "buttons": 864,
+ "screens": {
+  "home": 16,
+  "session": 18,
+  "library": 46,
+  "drug": 23,
+  "drug-understand": 23,
+  "drug-master": 25,
+  "systems": 30,
+  "module": 44,
+  "games": 32,
+  "hold": 26,
+  "rescue": 22,
+  "rescue-case": 18,
+  "exam": 20,
+  "missed": 12,
+  "compare": 14,
+  "progress": 13,
+  "mm-home": 36,
+  "mm-learn": 26,
+  "mm-lesson7": 20,
+  "mm-practice": 19,
+  "mm-games": 21,
+  "mm-exam": 27,
+  "mm-cheat": 20,
+  "mm-bench": 30,
+  "mm-build": 23,
+  "ins-home": 33,
+  "ins-timeline": 33,
+  "ins-cases": 37,
+  "ins-mix": 46,
+  "ins-check": 29,
+  "ins-syringe": 26,
+  "ins-quiz": 27,
+  "ins-play": 29
+ },
+ "mobile_nav": {
+  "items": 5,
+  "visible": 5,
+  "headerH": 57
+ },
+ "tablet_overflow": false,
+ "perf": {
+  "domContentLoaded": 202,
+  "load": 202,
+  "genQ": 364,
+  "allQ": 512,
+  "routeMs": 12
+ },
+ "focus_after_route": "H1#",
+ "sprint_best_after_ineligible": -999,
+ "rx_button_children": 0,
+ "back_from_deepdive": {
+  "hash_in_deepdive": "#library/digoxin",
+  "after_back": "#library",
+  "still_deepdive": false
+ },
+ "exam_resume": true
+}

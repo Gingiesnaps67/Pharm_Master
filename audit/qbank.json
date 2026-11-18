@@ -1,0 +1,318 @@
+{
+ "nearDupAuthored": [
+  [
+   "p5",
+   "lq52",
+   "0.36"
+  ],
+  [
+   "n3",
+   "lq19",
+   "0.39"
+  ],
+  [
+   "b5",
+   "lq24",
+   "0.36"
+  ],
+  [
+   "i3",
+   "gi4",
+   "0.35"
+  ],
+  [
+   "s1",
+   "lq58",
+   "0.52"
+  ],
+  [
+   "gi4",
+   "lq10",
+   "0.36"
+  ],
+  [
+   "x1",
+   "lq12",
+   "0.44"
+  ],
+  [
+   "ins16",
+   "lq41",
+   "0.36"
+  ],
+  [
+   "lq45",
+   "lq46",
+   "0.50"
+  ]
+ ],
+ "sharedConcepts": [
+  [
+   "digoxin-check",
+   [
+    "c1",
+    "k2"
+   ]
+  ],
+  [
+   "anticoag-antidote",
+   [
+    "c5",
+    "b4"
+   ]
+  ],
+  [
+   "tb-drugs",
+   [
+    "r3",
+    "r6"
+   ]
+  ],
+  [
+   "lithium-sodium",
+   [
+    "p1",
+    "pa4"
+   ]
+  ],
+  [
+   "eps-td",
+   [
+    "p6",
+    "gi4"
+   ]
+  ],
+  [
+   "phenytoin",
+   [
+    "n1",
+    "n2"
+   ]
+  ],
+  [
+   "mag-tox",
+   [
+    "m1",
+    "m5"
+   ]
+  ],
+  [
+   "iron-teach",
+   [
+    "k1",
+    "b1"
+   ]
+  ],
+  [
+   "burn-topicals",
+   [
+    "i1",
+    "i4"
+   ]
+  ],
+  [
+   "abx-allergy",
+   [
+    "i3",
+    "x4"
+   ]
+  ],
+  [
+   "gout",
+   [
+    "s2",
+    "s4"
+   ]
+  ],
+  [
+   "opioid-resp",
+   [
+    "pa1",
+    "pa2"
+   ]
+  ],
+  [
+   "ins-timing",
+   [
+    "ins1",
+    "ins2",
+    "ins3",
+    "ins4",
+    "ins5",
+    "ins6"
+   ]
+  ],
+  [
+   "ins-rapid",
+   [
+    "ins7",
+    "ins8",
+    "ins9"
+   ]
+  ],
+  [
+   "ins-hypo",
+   [
+    "ins10",
+    "ins11",
+    "ins12",
+    "ins13",
+    "ins14",
+    "ins44"
+   ]
+  ],
+  [
+   "ins-basal",
+   [
+    "ins15",
+    "ins16",
+    "ins17",
+    "ins18"
+   ]
+  ],
+  [
+   "ins-mix",
+   [
+    "ins19",
+    "ins20",
+    "ins21",
+    "ins22",
+    "ins23",
+    "ins24",
+    "ins25",
+    "ins26"
+   ]
+  ],
+  [
+   "ins-syringe",
+   [
+    "ins27",
+    "ins28",
+    "ins29"
+   ]
+  ],
+  [
+   "ins-conc",
+   [
+    "ins30",
+    "ins31",
+    "ins32"
+   ]
+  ],
+  [
+   "ins-technique",
+   [
+    "ins33",
+    "ins34",
+    "ins35",
+    "ins36",
+    "ins37"
+   ]
+  ],
+  [
+   "ins-escalate",
+   [
+    "ins38",
+    "ins39",
+    "ins40"
+   ]
+  ],
+  [
+   "ins-premix",
+   [
+    "ins41",
+    "ins42"
+   ]
+  ]
+ ],
+ "genDupOfAuthored": [
+  "gen:lisinopril:cls",
+  "gen:losartan:cls",
+  "gen:albuterol:sae",
+  "gen:pantoprazole:sae",
+  "gen:methimazole:sae",
+  "gen:diazepam:cls"
+ ],
+ "ambiguousGen": [],
+ "structural": [
+  [
+   "k4",
+   "no course source (reference content)"
+  ],
+  [
+   "b5",
+   "no course source (reference content)"
+  ],
+  [
+   "x1",
+   "no course source (reference content)"
+  ],
+  [
+   "o5",
+   "no course source (reference content)"
+  ],
+  [
+   "lq51",
+   "no course source (reference content)"
+  ],
+  [
+   "lq53",
+   "no course source (reference content)"
+  ],
+  [
+   "lq55",
+   "no course source (reference content)"
+  ]
+ ],
+ "orderItems": [
+  "c3",
+  "r1",
+  "e1",
+  "lq37"
+ ],
+ "diff": {
+  "1": 37,
+  "2": 157,
+  "3": 42
+ },
+ "formats": {
+  "mc": 189,
+  "sata": 22,
+  "order": 4,
+  "matrix": 6,
+  "bowtie": 1
+ },
+ "evaluateTests": "true (10/10)",
+ "drugsNoSource": [
+  "Apixaban",
+  "Flumazenil",
+  "Methylphenidate",
+  "Tamsulosin",
+  "Insulin degludec",
+  "Insulin NPH/regular 70/30",
+  "Methimazole"
+ ],
+ "flagged": [
+  "Digoxin",
+  "Amlodipine",
+  "Heparin",
+  "Enoxaparin",
+  "Warfarin",
+  "Apixaban",
+  "Insulin NPH (isophane)",
+  "Metformin",
+  "Lithium carbonate",
+  "Magnesium sulfate",
+  "Oxybutynin",
+  "Vancomycin",
+  "Acetaminophen",
+  "Fentanyl (transdermal patch)",
+  "Ketorolac",
+  "Antacids (calcium carbonate, Al/Mg hydroxide, sodium bicarbonate)"
+ ],
+ "counts": {
+  "authored": 222,
+  "scen": 14,
+  "gen": 434
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "dead": [
+  {
+   "screen": "home",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "home",
+   "btn": "PHARM MASTER\nThe Nursing Medication Lab"
+  },
+  {
+   "screen": "home",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "home",
+   "btn": "Home"
+  },
+  {
+   "screen": "session",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "session",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "session",
+   "btn": "Study session"
+  },
+  {
+   "screen": "library",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "library",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "library",
+   "btn": "Learn"
+  },
+  {
+   "screen": "library",
+   "btn": "Medications"
+  },
+  {
+   "screen": "library",
+   "btn": "List"
+  },
+  {
+   "screen": "drug",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "drug",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "drug",
+   "btn": "1\nQuick Glance"
+  },
+  {
+   "screen": "drug-understand",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "drug-understand",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "drug-understand",
+   "btn": "2\nUnderstand It"
+  },
+  {
+   "screen": "drug-master",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "drug-master",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "drug-master",
+   "btn": "5\nMaster It"
+  },
+  {
+   "screen": "systems",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "systems",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "systems",
+   "btn": "Body systems"
+  },
+  {
+   "screen": "module",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "module",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "games",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator(\"#app "
+  },
+  {
+   "screen": "games",
+   "btn": "Toggle light or dark mode"
+  },
+  {
+   "screen": "games",
+   "btn": "Matching"
+  },
+  {
+   "screen": "hold",
+   "btn": "Skip to content",
+   "why": "click failed: Locator.click: Timeout 2000ms exceeded.\nCall log:\n  - waiting for 
+{'color-contrast': ('serious', 17, 10), 'heading-order': ('moderate', 12, 12), 'page-has-heading-one': ('moderate', 2, 2)}
