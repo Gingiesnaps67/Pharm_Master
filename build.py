@@ -15,3 +15,6 @@ html=f'''<title>PHARM MASTER</title>
 pathlib.Path('pharm-master.html').write_text(html)
 pathlib.Path('bundle.js').write_text(js)
 print(len(html))
+# Standalone copy with a full HTML document wrapper (charset + viewport) for opening the file directly in a browser
+_app = open("pharm-master.html").read()
+open('pharm-master-standalone.html', 'w').write('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0">' + _app + '</body></html>')
